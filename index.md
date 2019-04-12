@@ -1,42 +1,43 @@
-<!-- .slide: data-background-image="assets/img/pigs.png" data-background-size="contain" -->
+<!-- .slide: data-background-image="assets/img/pig.webp" data-background-size="contain" -->
+# The Presentation Will Begin Shortly
 
 ---
 
-# hello galvanize!
+<!-- .slide: data-background-image="assets/img/kanban.png" data-background-size="contain" -->
 
-Thanks for having me 🙏
+note: kanban!
+
+---
+
+# Front Endsday
+
+Elixir, Phoenix, Elm
 
 note: make your face friendly
-* someone who has recently gone through what you're going through now
+
+What IS Elixir/Phoenix? Elm?
 
 ---
 
 ## the plan
 
-1. Credibility <!-- .element: class="fragment" -->
+2. Credibility <!-- .element: class="fragment" -->
 
-2. My Background <!-- .element: class="fragment" -->
-
-3. Your Future <!-- .element: class="fragment" -->
+3. Elixir, Phoenix, Elm <!-- .element: class="fragment" -->
 
 ---
 
 # Credibility
 
-
-## I'm Chris Brown 👋
-
 <i class="fa fa-slack" aria-hidden="true"></i> chrisbrown
 <i class="fa fa-twitter" aria-hidden="true"></i> chrismanbrown
 <i class="fa fa-github" aria-hidden="true"></i> chrisman
 
-* 💻 programmer <!-- .element: class="fragment" -->
+- 💻 developer <!-- .element: class="fragment" -->
 
-* 📿 yoga teacher <!-- .element: class="fragment" -->
+- 📿 yoga teacher <!-- .element: class="fragment" -->
 
 note: you are chris brown
-* left brain/right brain isn't really a [thing].
-[thing]: http://www.npr.org/sections/13.7/2013/12/02/248089436/the-truth-about-the-left-brain-right-brain-relationship
 
 
 <!-- .slide: data-background-image="assets/img/dogs.png" data-background-size="contain" -->
@@ -45,128 +46,178 @@ note: you are chris brown
 <!-- .slide: data-background-image="assets/img/dohere.gif" data-background-size="contain" -->
 
 
-<!-- .slide: data-background-image="assets/img/skookum.png" data-background-size="contain" -->
+<!-- .slide: data-background-image="assets/img/emad.jpg" data-background-size="contain" -->
+# Weirdness
 
-note:
-* digital product company with a funny name and an atari logo
-* Chinook jargon from Pacific Northwest
-
-
-<!-- .slide: data-background-image="assets/img/galvanize.jpg" data-background-size="contain" -->
-
-g18 represent! <!-- .element: class="fragment" style="color: blue;" -->
-
-note:
-* nmuta, martha
-* g5 Alex
-
-
-<!-- .slide: data-background-image="assets/img/coffee.png" data-background-size="contain" -->
+note: I haven't used this in production
+and Elixir/Phoenix is pretty much BACK end
 
 ---
 
-# My Background
+# Web Stacks
 
-note: lots of exposure, little formal education, and gSchool
-
-
-<!-- .slide: data-background-image="assets/img/baby.jpg" data-background-size="contain" -->
-
-note:
-* where'd you come from?
-* sean's twins
+| Language   | Web Framework   | Frontend    |
+|------------|-----------------|-------------|
+| JavaScript | Node.js/Express | HTML/JS/CSS |
+| Ruby       | Ruby on Rails   | HTML/JS/CSS |
+| Elixir     | Phoenix         | Elm         |
 
 
-<!-- .slide: data-background-image="assets/img/dad.png" data-background-size="contain" -->
+# Virtual Machines
 
-note:
-* early exposure in personal timeline, and in timeline of personal computing
-
-
-<!-- .slide: data-background-image="assets/img/windows31.png" data-background-size="contain" -->
-
-note:
-* I remember upgrading to windows 3.1, first version to include minesweeper
+| Language | Compiles to | Virtual Machine      |
+|----------|-------------|----------------------|
+| Clojure  | Java        | Java Virtual Machine |
+| Elixir   | Erlang      | Beam                 |
 
 
-<!-- .slide: data-background-image="assets/img/opengem.gif" data-background-size="contain" -->
 
-note:
-* opengem running on [freedos](freedos.org)
-* src: [https://www.youtube.com/watch?v=anif5KY0iBs]()
+# Erlang?
 
+- Distributed, Fault-tolerant <!-- .element: class="fragment" -->
 
-## 🦍 [GORILLAS.BAS][gorillas] 🦍
+- Functional <!-- .element: class="fragment" -->
 
-[gorillas]: https://archive.org/details/GorillasQbasic
+- Concurrent <!-- .element: class="fragment" -->
 
-note: first glimpses under the hood.
-* front end: geocities
+- Open Source <!-- .element: class="fragment" -->
 
 
-<!-- .slide: data-background-image="assets/img/geocities.png" data-background-size="contain" -->
+# Elixir?
 
-note:
-* geocities is eye cancer
-* http://www.themostamazingwebsiteontheinternet.com/
+- Friendly <!-- .element: class="fragment" -->
 
-
-<!-- .slide: data-background-image="assets/img/tables.png" data-background-size="contain" -->
-
-note:
-* border-radius didn't appear in a working draft of the CSS specification until 2005: https://www.w3.org/TR/2005/WD-css3-background-20050216/
-* C++ ...
+- Functional <!-- .element: class="fragment" -->
 
 
-<!-- .slide: data-background-image="assets/img/cobol.png" data-background-size="contain" -->
+# Elixir
 
-note:
-* ... and COBOL
-* end of any formal training
-
-
-<!-- .slide: data-background-image="assets/img/ob.jpg" data-background-size="contain" -->
+| Language   | Dependencies | Config/Build |
+|------------|--------------|--------------|
+| JavaScript | npm install  | webpack?     |
+| Elixir     | mix          | mix          |
 
 
-<!-- .slide: data-background-image="assets/img/idealab.jpg" data-background-size="contain" -->
+# Elixir
+(continued)
 
-note: http://dplidealab.tumblr.com/post/130896090963/coderdojo-ninjas-doing-serious-work
+| Serve   | Migrations |
+|---------|------------|
+| npm run | knex       |
+| mix     | mix        |
+
+note: here comes a gif with lots of mix
 
 
-<!-- .slide: data-background-image="assets/img/beginning.gif" data-background-size="contain" -->
+
+<!-- .slide: data-background-image="assets/img/exdoc.gif" data-background-size="contain" -->
+
+
+# Elixir is (not) like Ruby
+
+
+<!-- .slide: data-background-image="assets/img/mvc.gif" data-background-size="contain" -->
+
+
+<!-- .slide: data-background-image="assets/img/router.png" data-background-size="contain" -->
 
 ---
 
-# Your future
+# Elm
 
-<pre><code data-trim data-noescape>
-let employed = false;
-let hiring = companies.filter(company => company.isHiring)
+- Weird  <!-- .element: class="fragment" -->
 
-while(!employed) {
-  employed = hiring.some(company => company.hire(user));
-}
-</code></pre>
+- Functional  <!-- .element: class="fragment" -->
+
+- Error messages!  <!-- .element: class="fragment" -->
 
 
-<!-- .slide: data-background-image="assets/img/windy.gif" data-background-size="contain" -->
-
-note:
-* src: https://www.facebook.com/brittanygardner11/videos/10211952487671221/
-* how I got my job
+<!-- .slide: data-background-image="assets/img/elm-error-01.png" data-background-size="contain" -->
 
 
-## Culture
-
-* it's not a ping-pong table <!-- .element: class="fragment" -->
-
-* what are your values? <!-- .element: class="fragment" -->
+<!-- .slide: data-background-image="assets/img/elm-error-02.png" data-background-size="contain" -->
 
 
-<!-- .slide: data-background-image="assets/img/teamwork.jpg" data-background-size="contain" -->
-note: use the people around you! Surround youself with the people you want to be around!
+<!-- .slide: data-background-image="assets/img/elm-error-03.png" data-background-size="contain" -->
 
----
+
+# Architecture
+
+model, view, update
+
+
+## model
+
+```elm
+-- Model
+
+type alias Model =
+    Int
+
+model : Model
+model =
+    0
+```
+
+
+## view
+
+```elm
+view : Model -> Html Msg
+view model =
+    div []
+        [ h1 [] [ text "My County Counter!" ]
+        , button [ onClick Decrement ] [ text "Decrement" ]
+        , span [] [ text (toString model) ]
+        , button [ onClick Increment ] [ text "Increment" ]
+        , div []
+            [ button [ onClick Reset ] [ text "Reset" ] ]
+        ]
+```
+
+
+## update
+
+```elm
+-- update
+
+type Msg
+    = Increment
+    | Decrement
+    | Reset
+
+update : Msg -> Model -> Model
+update msg model =
+    case msg of
+        Increment ->
+            model + 1
+
+        Decrement ->
+            model - 1
+
+        Reset ->
+            0
+```
+
+
+<!-- .slide: data-background-image="assets/img/why.webp" data-background-size="contain" -->
+
+
+# Resources
+
+Course
+
+- https://www.udemy.com/the-complete-elixir-and-phoenix-bootcamp-and-tutorial
+- https://egghead.io/courses/start-using-elm-to-build-web-applications
+
+Book
+
+- https://learnyousomeerlang.com/
+
+Documentary!
+
+- https://doc.honeypot.io/elixir-documentary-2018/
+
 
 <!-- .slide: data-background-image="assets/img/bye.gif" data-background-size="contain" -->
 # bye!

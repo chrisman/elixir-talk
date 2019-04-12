@@ -1,5 +1,13 @@
-this is a lightning talk that I'm preparing for the soon-to-graduate class of g38, at Galvanize Platte Street.
+# Elixir, Phoenix, Elm
 
-uses reveal.js as a presentation framework. content is in index.md, which is imported by index.html. to the very small degree that it is needed, custom css is written in /lib/css/custom.css
+A Functional Programming web stack
 
-to start, `http-server` in the root directory, and `open http://localhost:8080`
+## About
+
+This is a talk that I gave at Skookum's "Front Endsay" Frontend Dev Forum February 2019.
+
+**TODO**: Fill in objectives and overview here
+
+## Dev
+
+To start, `http-server` in the root directory, and `open http://localhost:8080`
